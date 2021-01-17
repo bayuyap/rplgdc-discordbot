@@ -1,21 +1,33 @@
 {
   "name": "devday-bot-v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A general bot for handling new user and user division",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.0.1",
+    "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "winston": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayuyap/rplgdc-discordbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bayuyap/rplgdc-discordbot/issues"
+  },
+  "homepage": "https://github.com/bayuyap/rplgdc-discordbot#readme",
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ]
 }
