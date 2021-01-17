@@ -29,5 +29,9 @@
   "keywords": [
     "heroku",
     "discord.js"
-  ]
+  ],
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2"
+  }
 }
