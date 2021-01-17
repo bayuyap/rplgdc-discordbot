@@ -5,6 +5,13 @@ const logger = require('winston');
 const tokenDiscord = process.env.DISCORD_TOKEN;
 const fs = require('fs');
 
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+  console.log(Date.now() + " Ping Received");
+  response.sendStatus(200);
+});
 
 // Configure logger settings
 logger.remove(logger.transports.Console);
