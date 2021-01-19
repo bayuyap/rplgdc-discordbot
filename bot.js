@@ -6,7 +6,6 @@ const tokenDiscord = process.env.DISCORD_TOKEN;
 const fs = require('fs');
 
 
-
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
