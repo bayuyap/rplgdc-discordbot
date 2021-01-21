@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+require('newrelic');
 const Discord = require('discord.js');
 const logger = require('winston');
 const tokenDiscord = process.env.DISCORD_TOKEN;
