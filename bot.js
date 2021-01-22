@@ -23,7 +23,6 @@ fs.readdir('./events/', (err, files) => {
   })
 })
 
-
 logger.info('Standby');
 client.login(tokenDiscord);
 client.on('ready', () => {
